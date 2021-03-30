@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 2px solid red */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logo svg{
+    margin-right: 4%;
+}
+
+.menu{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5%;
+}
+
+/* PARTIE PRESENTATION TEXT */
+
+.main{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%; /* POUSSE A L'INTERIEUR */
+    /* margin: 5%; POUSSE A L'EXTERIEUR */
+}
+
+.main p{
+    width: 43%;
+    text-align: center;
+    min-width: 256px;
+}
+
+.main button{
+    width: 150px;
+    padding: 3%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1{
+    background: blue;
+}
+
+.btn-2{
+    background: burlywood;
+}
+
+/* CONTAINER */
+
+.haut{
+    height: 244px;
+    overflow: hidden;
+}
+
+.haut img{
+    border-top-left-radius: 6px ;
+    border-TOP-right-radius: 6px;
+}
+
+.container{
+    width: 100%;
+    background: indianred;
+    display:flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    width: 350px;
+    border-radius: 5%;
+}
+
+.text .view{
+    padding: 5%;
+}
+
+.view{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.viewbutton{
+    display: flex;
+}
+
+.viewbutton button{
+    padding: 10%;
+    color: grey;
+    background: white;
+}
